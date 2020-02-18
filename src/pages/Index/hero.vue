@@ -175,10 +175,13 @@ export default {
         });
 
         this.list = ret;
+        this.finished = true;
         console.log("结果", this.list);
         //
       } else {
-        this.list = heroes;
+        // this.list = heroes;
+        this.refreshing = true;
+        this.onRefresh();
       }
     }
   }

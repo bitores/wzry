@@ -92,16 +92,19 @@ export default {
 
         let reg = new RegExp(str.join("|"));
 
-        let ret = this.equips.filter(item => {
+        let ret = equips.filter(item => {
           // console.log(item.city, reg, reg.test(item.city));
           return reg.test(item.name) || reg.test(item.category);
         });
 
         this.list = ret;
+        this.finished = true;
         console.log("结果", this.list);
         //
       } else {
-        this.list = this.equips;
+        this.refreshing = true;
+        this.onRefresh();
+        // this.list = equips;
       }
     }
   }

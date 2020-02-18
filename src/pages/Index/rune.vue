@@ -106,10 +106,13 @@ export default {
         });
 
         this.list = ret;
+        this.finished = true;
         console.log("结果", this.list);
         //
       } else {
-        this.list = runes;
+        this.refreshing = true;
+        this.onRefresh();
+        // this.list = runes;
       }
     }
   }
