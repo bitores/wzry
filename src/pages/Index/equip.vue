@@ -40,6 +40,7 @@ export default {
       keyWord: ""
     };
   },
+
   methods: {
     onLoad() {
       setTimeout(() => {

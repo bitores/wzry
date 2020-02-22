@@ -2409,7 +2409,7 @@ export default [
     "icon": "https://img.18183.com/uploads/allimg/200116/266-2001161H353.jpg",
     "htmlUrl": "/wzry/hero/15772.html",
     "category": "射手",
-    "type": "far",
+    "type": "远程",
     "position": "p5",
     "id": "15772",
     "最大生命": "3041",

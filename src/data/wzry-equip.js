@@ -11,13 +11,13 @@ export default {
       "parent_id": "破晓",
       "child_id": "匕首,雷鸣刃",
       "attribute": [{
-        "attribute": "attack_speed",
+        "attribute": "攻速加成",
         "value": "10",
         "unit": "percent",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "attack_damage",
+        "attribute": "物理攻击",
         "value": "40",
         "unit": "point",
         "type": "normal",
@@ -43,19 +43,19 @@ export default {
       "parent_id": "",
       "child_id": "穿云弓,速击之枪,冲能拳套",
       "attribute": [{
-        "attribute": "attack_speed",
+        "attribute": "攻速加成",
         "value": "35",
         "unit": "percent",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "critical_strike_chance",
+        "attribute": "暴击几率",
         "value": "15",
         "unit": "percent",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "attack_damage",
+        "attribute": "物理攻击",
         "value": "50",
         "unit": "point",
         "type": "normal",
@@ -85,7 +85,7 @@ export default {
       "parent_id": "",
       "child_id": "风之轻语,红玛瑙",
       "attribute": [{
-        "attribute": "movement_speed",
+        "attribute": "移速",
         "value": "10",
         "unit": "percent",
         "type": "normal",
@@ -111,7 +111,7 @@ export default {
       "parent_id": "",
       "child_id": "凤鸣指环,红玛瑙",
       "attribute": [{
-        "attribute": "movement_speed",
+        "attribute": "移速",
         "value": "10",
         "unit": "percent",
         "type": "normal",
@@ -137,7 +137,7 @@ export default {
       "parent_id": "鼓舞之盾",
       "child_id": "学识宝石,红玛瑙",
       "attribute": [{
-        "attribute": "movement_speed",
+        "attribute": "移速",
         "value": "5",
         "unit": "percent",
         "type": "normal",
@@ -163,7 +163,7 @@ export default {
       "parent_id": "奔狼纹章",
       "child_id": "学识宝石,红玛瑙",
       "attribute": [{
-        "attribute": "health",
+        "attribute": "最大生命",
         "value": "5",
         "unit": "percent",
         "type": "normal",
@@ -189,7 +189,7 @@ export default {
       "parent_id": "救赎之翼",
       "child_id": "学识宝石,红玛瑙",
       "attribute": [{
-        "attribute": "movement_speed",
+        "attribute": "移速",
         "value": "5",
         "unit": "percent",
         "type": "normal",
@@ -215,7 +215,7 @@ export default {
       "parent_id": "极影",
       "child_id": "学识宝石,红玛瑙",
       "attribute": [{
-        "attribute": "movement_speed",
+        "attribute": "移速",
         "value": "5",
         "unit": "percent",
         "type": "normal",
@@ -241,7 +241,7 @@ export default {
       "parent_id": "凤鸣指环,风之轻语,风灵纹章,鼓舞之盾",
       "child_id": "",
       "attribute": [{
-        "attribute": "movement_speed",
+        "attribute": "移速",
         "value": "5",
         "unit": "percent",
         "type": "normal",
@@ -267,19 +267,19 @@ export default {
       "parent_id": "",
       "child_id": "狂暴双刃",
       "attribute": [{
-        "attribute": "attack_speed",
+        "attribute": "攻速加成",
         "value": "20",
         "unit": "percent",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "critical_strike_chance",
+        "attribute": "暴击几率",
         "value": "15",
         "unit": "percent",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "movement_speed",
+        "attribute": "移速",
         "value": "5",
         "unit": "percent",
         "type": "normal",
@@ -305,19 +305,19 @@ export default {
       "parent_id": "",
       "child_id": "血族之书,红玛瑙,咒术典籍",
       "attribute": [{
-        "attribute": "cooldown_reduction",
+        "attribute": "冷却缩减",
         "value": "10",
         "unit": "percent",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "health",
+        "attribute": "最大生命",
         "value": "800",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "ability_power",
+        "attribute": "法术攻击",
         "value": "180",
         "unit": "point",
         "type": "normal",
@@ -367,25 +367,25 @@ export default {
       "parent_id": "",
       "child_id": "光辉之剑,布甲",
       "attribute": [{
-        "attribute": "health",
+        "attribute": "最大生命",
         "value": "800",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "mana",
+        "attribute": "最大法力",
         "value": "500",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "cooldown_reduction",
+        "attribute": "冷却缩减",
         "value": "10",
         "unit": "percent",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "armor",
+        "attribute": "物理防御",
         "value": "200",
         "unit": "point",
         "type": "normal",
@@ -411,13 +411,13 @@ export default {
       "parent_id": "",
       "child_id": "日冕,红玛瑙,铁剑",
       "attribute": [{
-        "attribute": "attack_damage",
+        "attribute": "物理攻击",
         "value": "80",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "health",
+        "attribute": "最大生命",
         "value": "600",
         "unit": "point",
         "type": "normal",
@@ -443,19 +443,19 @@ export default {
       "parent_id": "",
       "child_id": "红玛瑙,风灵纹章",
       "attribute": [{
-        "attribute": "mana",
+        "attribute": "最大法力",
         "value": "400",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "armor",
+        "attribute": "物理防御",
         "value": "100",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "health",
+        "attribute": "最大生命",
         "value": "400",
         "unit": "point",
         "type": "normal",
@@ -481,13 +481,13 @@ export default {
       "parent_id": "",
       "child_id": "大棒,圣者法典",
       "attribute": [{
-        "attribute": "ability_power",
+        "attribute": "法术攻击",
         "value": "160",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "cooldown_reduction",
+        "attribute": "冷却缩减",
         "value": "10",
         "unit": "percent",
         "type": "normal",
@@ -513,13 +513,13 @@ export default {
       "parent_id": "大棒,元素杖",
       "child_id": "",
       "attribute": [{
-        "attribute": "ability_power",
+        "attribute": "法术攻击",
         "value": "240",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "movement_speed",
+        "attribute": "移速",
         "value": "5",
         "unit": "percent",
         "type": "normal",
@@ -545,19 +545,19 @@ export default {
       "parent_id": "",
       "child_id": "咒术典籍,蓝宝石,圣者法典",
       "attribute": [{
-        "attribute": "attack_speed",
+        "attribute": "攻速加成",
         "value": "20",
         "unit": "percent",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "ability_power",
+        "attribute": "法术攻击",
         "value": "100",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "cooldown_reduction",
+        "attribute": "冷却缩减",
         "value": "15",
         "unit": "percent",
         "type": "normal",
@@ -583,19 +583,19 @@ export default {
       "parent_id": "圣杯",
       "child_id": "咒术典籍,炼金护符",
       "attribute": [{
-        "attribute": "ability_power",
+        "attribute": "法术攻击",
         "value": "80",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "cooldown_reduction",
+        "attribute": "冷却缩减",
         "value": "5",
         "unit": "percent",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "mana_regen",
+        "attribute": "法力回复",
         "value": "20",
         "unit": "point",
         "type": "normal",
@@ -617,7 +617,7 @@ export default {
       "parent_id": "虚无法杖",
       "child_id": "",
       "attribute": [{
-        "attribute": "ability_power",
+        "attribute": "法术攻击",
         "value": "80",
         "unit": "point",
         "type": "normal",
@@ -639,13 +639,13 @@ export default {
       "parent_id": "",
       "child_id": "铁剑,雷鸣刃",
       "attribute": [{
-        "attribute": "attack_damage",
+        "attribute": "物理攻击",
         "value": "100",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "life_steal",
+        "attribute": "物理吸血",
         "value": "10",
         "unit": "percent",
         "type": "normal",
@@ -671,13 +671,13 @@ export default {
       "parent_id": "",
       "child_id": "速击之枪,冲能拳套,匕首",
       "attribute": [{
-        "attribute": "attack_speed",
+        "attribute": "攻速加成",
         "value": "40",
         "unit": "percent",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "critical_strike_chance",
+        "attribute": "暴击几率",
         "value": "20",
         "unit": "percent",
         "type": "normal",
@@ -707,7 +707,7 @@ export default {
       "parent_id": "末世,纯净苍穹,破晓,逐日之弓",
       "child_id": "匕首",
       "attribute": [{
-        "attribute": "attack_speed",
+        "attribute": "攻速加成",
         "value": "25",
         "unit": "percent",
         "type": "normal",
@@ -733,7 +733,7 @@ export default {
       "parent_id": "无尽战刃,宗师之力,逐日之弓,破晓,纯净苍穹",
       "child_id": "",
       "attribute": [{
-        "attribute": "critical_strike_chance",
+        "attribute": "暴击几率",
         "value": "15",
         "unit": "point",
         "type": "normal",
@@ -755,7 +755,7 @@ export default {
       "parent_id": "穿云弓,破魔刀,名刀·司命,破甲弓,制裁之刃",
       "child_id": "",
       "attribute": [{
-        "attribute": "attack_damage",
+        "attribute": "物理攻击",
         "value": "40",
         "unit": "point",
         "type": "normal",
@@ -777,13 +777,13 @@ export default {
       "parent_id": "",
       "child_id": "力量腰带,铁剑",
       "attribute": [{
-        "attribute": "attack_damage",
+        "attribute": "物理攻击",
         "value": "20",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "health",
+        "attribute": "最大生命",
         "value": "1000",
         "unit": "point",
         "type": "normal",
@@ -809,13 +809,13 @@ export default {
       "parent_id": "",
       "child_id": "大棒",
       "attribute": [{
-        "attribute": "ability_power",
+        "attribute": "法术攻击",
         "value": "240",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "movement_speed",
+        "attribute": "移速",
         "value": "7",
         "unit": "percent",
         "type": "normal",
@@ -841,13 +841,13 @@ export default {
       "parent_id": "",
       "child_id": "力量腰带,布甲,布甲",
       "attribute": [{
-        "attribute": "health",
+        "attribute": "最大生命",
         "value": "1000",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "armor",
+        "attribute": "物理防御",
         "value": "220",
         "unit": "point",
         "type": "normal",
@@ -873,13 +873,13 @@ export default {
       "parent_id": "",
       "child_id": "",
       "attribute": [{
-        "attribute": "armor",
+        "attribute": "物理防御",
         "value": "140",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "magic_resist",
+        "attribute": "法术防御",
         "value": "140",
         "unit": "point",
         "type": "normal",
@@ -905,19 +905,19 @@ export default {
       "parent_id": "",
       "child_id": "雪山圆盾,守护者之铠",
       "attribute": [{
-        "attribute": "cooldown_reduction",
+        "attribute": "冷却缩减",
         "value": "20",
         "unit": "percent",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "mana",
+        "attribute": "最大法力",
         "value": "500",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "armor",
+        "attribute": "物理防御",
         "value": "360",
         "unit": "point",
         "type": "normal",
@@ -943,13 +943,13 @@ export default {
       "parent_id": "",
       "child_id": "神隐斗篷,力量腰带",
       "attribute": [{
-        "attribute": "magic_resist",
+        "attribute": "法术防御",
         "value": "360",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "health",
+        "attribute": "最大生命",
         "value": "1000",
         "unit": "point",
         "type": "normal",
@@ -975,19 +975,19 @@ export default {
       "parent_id": "",
       "child_id": "神隐斗篷,红玛瑙,提神水晶",
       "attribute": [{
-        "attribute": "magic_resist",
+        "attribute": "法术防御",
         "value": "240",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "health",
+        "attribute": "最大生命",
         "value": "1200",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "health_regen",
+        "attribute": "生命回复",
         "value": "100",
         "unit": "point",
         "type": "normal",
@@ -1013,13 +1013,13 @@ export default {
       "parent_id": "",
       "child_id": "力量腰带,守护者之铠",
       "attribute": [{
-        "attribute": "armor",
+        "attribute": "物理防御",
         "value": "270",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "health",
+        "attribute": "最大生命",
         "value": "1200",
         "unit": "point",
         "type": "normal",
@@ -1045,7 +1045,7 @@ export default {
       "parent_id": "",
       "child_id": "力量腰带",
       "attribute": [{
-        "attribute": "health",
+        "attribute": "最大生命",
         "value": "2000",
         "unit": "point",
         "type": "normal",
@@ -1071,13 +1071,13 @@ export default {
       "parent_id": "",
       "child_id": "熔炼之心,布甲",
       "attribute": [{
-        "attribute": "armor",
+        "attribute": "物理防御",
         "value": "240",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "health",
+        "attribute": "最大生命",
         "value": "1200",
         "unit": "point",
         "type": "normal",
@@ -1103,13 +1103,13 @@ export default {
       "parent_id": "",
       "child_id": "布甲,雷鸣刃",
       "attribute": [{
-        "attribute": "armor",
+        "attribute": "物理防御",
         "value": "420",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "attack_damage",
+        "attribute": "物理攻击",
         "value": "40",
         "unit": "point",
         "type": "normal",
@@ -1135,13 +1135,13 @@ export default {
       "parent_id": "",
       "child_id": "红玛瑙,鼓舞之盾",
       "attribute": [{
-        "attribute": "health",
+        "attribute": "最大生命",
         "value": "500",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "movement_speed",
+        "attribute": "移速",
         "value": "5",
         "unit": "percent",
         "type": "normal",
@@ -1167,7 +1167,7 @@ export default {
       "parent_id": "不祥征兆,冰封之心",
       "child_id": "布甲",
       "attribute": [{
-        "attribute": "armor",
+        "attribute": "物理防御",
         "value": "210",
         "unit": "point",
         "type": "normal",
@@ -1193,19 +1193,19 @@ export default {
       "parent_id": "冰封之心,冰脉护手",
       "child_id": "布甲",
       "attribute": [{
-        "attribute": "cooldown_reduction",
+        "attribute": "冷却缩减",
         "value": "10",
         "unit": "percent",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "mana",
+        "attribute": "最大法力",
         "value": "400",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "armor",
+        "attribute": "物理防御",
         "value": "110",
         "unit": "point",
         "type": "normal",
@@ -1227,19 +1227,19 @@ export default {
       "parent_id": "振兴之铠,魔女斗篷",
       "child_id": "红玛瑙,抗魔披风",
       "attribute": [{
-        "attribute": "magic_resist",
+        "attribute": "法术防御",
         "value": "120",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "health",
+        "attribute": "最大生命",
         "value": "700",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "health_regen",
+        "attribute": "生命回复",
         "value": "50",
         "unit": "point",
         "type": "normal",
@@ -1260,7 +1260,7 @@ export default {
       "parent_id": "红莲斗篷",
       "child_id": "红玛瑙",
       "attribute": [{
-        "attribute": "health",
+        "attribute": "最大生命",
         "value": "700",
         "unit": "point",
         "type": "normal",
@@ -1286,7 +1286,7 @@ export default {
       "parent_id": "霸者重装,不祥征兆,暴烈之甲,冰霜法杖,魔女斗篷",
       "child_id": "红玛瑙",
       "attribute": [{
-        "attribute": "health",
+        "attribute": "最大生命",
         "value": "1000",
         "unit": "point",
         "type": "normal",
@@ -1308,7 +1308,7 @@ export default {
       "parent_id": "霸者重装,振兴之铠",
       "child_id": "",
       "attribute": [{
-        "attribute": "health_regen",
+        "attribute": "生命回复",
         "value": "30",
         "unit": "point",
         "type": "normal",
@@ -1330,7 +1330,7 @@ export default {
       "parent_id": "神隐斗篷,军团荣耀,抵抗之靴,梦魇之牙",
       "child_id": "",
       "attribute": [{
-        "attribute": "magic_resist",
+        "attribute": "法术防御",
         "value": "90",
         "unit": "point",
         "type": "normal",
@@ -1352,7 +1352,7 @@ export default {
       "parent_id": "雪山圆盾,守护者之铠,军团荣耀,反伤刺甲,奔狼纹章,爆烈之甲,影忍之足,红莲斗篷",
       "child_id": "",
       "attribute": [{
-        "attribute": "armor",
+        "attribute": "物理防御",
         "value": "90",
         "unit": "point",
         "type": "normal",
@@ -1374,7 +1374,7 @@ export default {
       "parent_id": "力量腰带,熔炼之心,神隐斗篷,近卫荣耀,血魔之怒,奔狼纹章,噬神之书,",
       "child_id": "",
       "attribute": [{
-        "attribute": "health",
+        "attribute": "最大生命",
         "value": "300",
         "unit": "point",
         "type": "normal",
@@ -1396,13 +1396,13 @@ export default {
       "parent_id": "",
       "child_id": "追击刀锋",
       "attribute": [{
-        "attribute": "attack_damage",
+        "attribute": "物理攻击",
         "value": "45",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "attack_speed",
+        "attribute": "攻速加成",
         "value": "12",
         "unit": "percent",
         "type": "normal",
@@ -1432,7 +1432,7 @@ export default {
       "parent_id": "",
       "child_id": "巡守利斧",
       "attribute": [{
-        "attribute": "health",
+        "attribute": "最大生命",
         "value": "600",
         "unit": "point",
         "type": "normal",
@@ -1466,13 +1466,13 @@ export default {
       "parent_id": "",
       "child_id": "游击宽刃",
       "attribute": [{
-        "attribute": "ability_power",
+        "attribute": "法术攻击",
         "value": "100",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "mana",
+        "attribute": "最大法力",
         "value": "400",
         "unit": "point",
         "type": "normal",
@@ -1577,7 +1577,7 @@ export default {
       "parent_id": "",
       "child_id": "神速之靴",
       "attribute": [{
-        "attribute": "attack_speed",
+        "attribute": "攻速加成",
         "value": "30",
         "unit": "percent",
         "type": "normal",
@@ -1603,7 +1603,7 @@ export default {
       "parent_id": "",
       "child_id": "神速之靴",
       "attribute": [{
-        "attribute": "movement_speed",
+        "attribute": "移速",
         "value": "60",
         "unit": "point",
         "type": "normal",
@@ -1629,7 +1629,7 @@ export default {
       "parent_id": "",
       "child_id": "神速之靴",
       "attribute": [{
-        "attribute": "cooldown_reduction",
+        "attribute": "冷却缩减",
         "value": "15",
         "unit": "percent",
         "type": "normal",
@@ -1659,7 +1659,7 @@ export default {
       "parent_id": "",
       "child_id": "神速之靴",
       "attribute": [{
-        "attribute": "magic_resist",
+        "attribute": "法术防御",
         "value": "110",
         "unit": "point",
         "type": "normal",
@@ -1689,7 +1689,7 @@ export default {
       "parent_id": "",
       "child_id": "神速之靴",
       "attribute": [{
-        "attribute": "armor",
+        "attribute": "物理防御",
         "value": "110",
         "unit": "point",
         "type": "normal",
@@ -1759,7 +1759,7 @@ export default {
       "parent_id": "",
       "child_id": "大棒",
       "attribute": [{
-        "attribute": "ability_power",
+        "attribute": "法术攻击",
         "value": "400",
         "unit": "point",
         "type": "normal",
@@ -1785,19 +1785,19 @@ export default {
       "parent_id": "",
       "child_id": "大棒,进化水晶",
       "attribute": [{
-        "attribute": "ability_power",
+        "attribute": "法术攻击",
         "value": "160",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "mana",
+        "attribute": "最大法力",
         "value": "600",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "health",
+        "attribute": "最大生命",
         "value": "800",
         "unit": "point",
         "type": "normal",
@@ -1823,25 +1823,25 @@ export default {
       "parent_id": "",
       "child_id": "光辉之剑,咒术典籍",
       "attribute": [{
-        "attribute": "ability_power",
+        "attribute": "法术攻击",
         "value": "140",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "health",
+        "attribute": "最大生命",
         "value": "400",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "mana",
+        "attribute": "最大法力",
         "value": "400",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "movement_speed",
+        "attribute": "移速",
         "value": "8",
         "unit": "percent",
         "type": "normal",
@@ -1867,19 +1867,19 @@ export default {
       "parent_id": "",
       "child_id": "魅影面罩,咒术典籍",
       "attribute": [{
-        "attribute": "ability_power",
+        "attribute": "法术攻击",
         "value": "140",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "health",
+        "attribute": "最大生命",
         "value": "500",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "cooldown_reduction",
+        "attribute": "冷却缩减",
         "value": "5",
         "unit": "percent",
         "type": "normal",
@@ -1909,13 +1909,13 @@ export default {
       "parent_id": "",
       "child_id": "大棒,力量腰带",
       "attribute": [{
-        "attribute": "ability_power",
+        "attribute": "法术攻击",
         "value": "150",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "health",
+        "attribute": "最大生命",
         "value": "1050",
         "unit": "point",
         "type": "normal",
@@ -1941,7 +1941,7 @@ export default {
       "parent_id": "",
       "child_id": "大棒,咒术典籍",
       "attribute": [{
-        "attribute": "ability_power",
+        "attribute": "法术攻击",
         "value": "240",
         "unit": "point",
         "type": "normal",
@@ -1967,13 +1967,13 @@ export default {
       "parent_id": "",
       "child_id": "",
       "attribute": [{
-        "attribute": "ability_power",
+        "attribute": "法术攻击",
         "value": "180",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "health",
+        "attribute": "最大生命",
         "value": "500",
         "unit": "point",
         "type": "normal",
@@ -1999,19 +1999,19 @@ export default {
       "parent_id": "",
       "child_id": "大棒,蓝宝石,炼金护符",
       "attribute": [{
-        "attribute": "ability_power",
+        "attribute": "法术攻击",
         "value": "180",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "mana",
+        "attribute": "最大法力",
         "value": "600",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "mana_regen",
+        "attribute": "法力回复",
         "value": "15",
         "unit": "point",
         "type": "normal",
@@ -2037,19 +2037,19 @@ export default {
       "parent_id": "",
       "child_id": "咒术典籍,炼金护符,圣者法典,破碎圣杯",
       "attribute": [{
-        "attribute": "ability_power",
+        "attribute": "法术攻击",
         "value": "180",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "cooldown_reduction",
+        "attribute": "冷却缩减",
         "value": "15",
         "unit": "percent",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "mana_regen",
+        "attribute": "法力回复",
         "value": "25",
         "unit": "point",
         "type": "normal",
@@ -2075,13 +2075,13 @@ export default {
       "parent_id": "时之预言",
       "child_id": "蓝宝石,红玛瑙",
       "attribute": [{
-        "attribute": "mana",
+        "attribute": "最大法力",
         "value": "400",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "health",
+        "attribute": "最大生命",
         "value": "400",
         "unit": "point",
         "type": "normal",
@@ -2107,13 +2107,13 @@ export default {
       "parent_id": "痛苦面具,虚无法杖",
       "child_id": "咒术典籍,红玛瑙",
       "attribute": [{
-        "attribute": "ability_power",
+        "attribute": "法术攻击",
         "value": "70",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "health",
+        "attribute": "最大生命",
         "value": "300",
         "unit": "point",
         "type": "normal",
@@ -2139,13 +2139,13 @@ export default {
       "parent_id": "巫术法杖,冰痕之握",
       "child_id": "红玛瑙,蓝宝石",
       "attribute": [{
-        "attribute": "health",
+        "attribute": "最大生命",
         "value": "400",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "mana",
+        "attribute": "最大法力",
         "value": "400",
         "unit": "point",
         "type": "normal",
@@ -2171,13 +2171,13 @@ export default {
       "parent_id": "",
       "child_id": "咒术典籍,圣者法典",
       "attribute": [{
-        "attribute": "ability_power",
+        "attribute": "法术攻击",
         "value": "75",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "cooldown_reduction",
+        "attribute": "冷却缩减",
         "value": "10",
         "unit": "percent",
         "type": "normal",
@@ -2203,7 +2203,7 @@ export default {
       "parent_id": "博学者之怒,冰霜法杖,时之预言,贤者之书,回响之杖,辉月,梦魇之牙",
       "child_id": "咒术典籍",
       "attribute": [{
-        "attribute": "ability_power",
+        "attribute": "法术攻击",
         "value": "120",
         "unit": "point",
         "type": "normal",
@@ -2225,13 +2225,13 @@ export default {
       "parent_id": "血族之书,圣杯,辉月",
       "child_id": "",
       "attribute": [{
-        "attribute": "ability_power",
+        "attribute": "法术攻击",
         "value": "20",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "cooldown_reduction",
+        "attribute": "冷却缩减",
         "value": "8",
         "unit": "percent",
         "type": "normal",
@@ -2253,7 +2253,7 @@ export default {
       "parent_id": "炽热支配者,破碎圣杯",
       "child_id": "",
       "attribute": [{
-        "attribute": "mana_regen",
+        "attribute": "法力回复",
         "value": "10",
         "unit": "point",
         "type": "normal",
@@ -2275,7 +2275,7 @@ export default {
       "parent_id": "光辉之剑,进化水晶,炽热支配者,雪山圆盾,符文大剑",
       "child_id": "",
       "attribute": [{
-        "attribute": "mana",
+        "attribute": "最大法力",
         "value": "300",
         "unit": "point",
         "type": "normal",
@@ -2297,7 +2297,7 @@ export default {
       "parent_id": "大棒,血族之书,光辉之剑,魅影面罩,圣杯,炽热支配者,破碎圣杯,噬神之书",
       "child_id": "",
       "attribute": [{
-        "attribute": "ability_power",
+        "attribute": "法术攻击",
         "value": "40",
         "unit": "point",
         "type": "normal",
@@ -2319,7 +2319,7 @@ export default {
       "parent_id": "",
       "child_id": "风暴巨剑",
       "attribute": [{
-        "attribute": "attack_damage",
+        "attribute": "物理攻击",
         "value": "200",
         "unit": "point",
         "type": "normal",
@@ -2345,19 +2345,19 @@ export default {
       "parent_id": "",
       "child_id": "日冕,陨星",
       "attribute": [{
-        "attribute": "attack_damage",
+        "attribute": "物理攻击",
         "value": "85",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "cooldown_reduction",
+        "attribute": "冷却缩减",
         "value": "15",
         "unit": "percent",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "health",
+        "attribute": "最大生命",
         "value": "500",
         "unit": "point",
         "type": "normal",
@@ -2387,19 +2387,19 @@ export default {
       "parent_id": "",
       "child_id": "狂暴双刃,匕首",
       "attribute": [{
-        "attribute": "attack_speed",
+        "attribute": "攻速加成",
         "value": "40",
         "unit": "percent",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "critical_strike_chance",
+        "attribute": "暴击几率",
         "value": "20",
         "unit": "percent",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "movement_speed",
+        "attribute": "移速",
         "value": "10",
         "unit": "percent",
         "type": "normal",
@@ -2425,19 +2425,19 @@ export default {
       "parent_id": "",
       "child_id": "狂暴双刃,搏击拳套",
       "attribute": [{
-        "attribute": "attack_speed",
+        "attribute": "攻速加成",
         "value": "30",
         "unit": "percent",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "critical_strike_chance",
+        "attribute": "暴击几率",
         "value": "20",
         "unit": "percent",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "movement_speed",
+        "attribute": "移速",
         "value": "8",
         "unit": "percent",
         "type": "normal",
@@ -2463,25 +2463,25 @@ export default {
       "parent_id": "",
       "child_id": "雷鸣刃,光辉之剑,冲能拳套",
       "attribute": [{
-        "attribute": "attack_damage",
+        "attribute": "物理攻击",
         "value": "60",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "critical_strike_chance",
+        "attribute": "暴击几率",
         "value": "20",
         "unit": "percent",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "mana",
+        "attribute": "最大法力",
         "value": "400",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "health",
+        "attribute": "最大生命",
         "value": "400",
         "unit": "point",
         "type": "normal",
@@ -2511,13 +2511,13 @@ export default {
       "parent_id": "",
       "child_id": "风暴巨剑,冲能拳套,铁剑",
       "attribute": [{
-        "attribute": "attack_damage",
+        "attribute": "物理攻击",
         "value": "120",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "critical_strike_chance",
+        "attribute": "暴击几率",
         "value": "20",
         "unit": "percent",
         "type": "normal",
@@ -2543,13 +2543,13 @@ export default {
       "parent_id": "",
       "child_id": "风暴巨剑,吸血之镰",
       "attribute": [{
-        "attribute": "attack_damage",
+        "attribute": "物理攻击",
         "value": "100",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "life_steal",
+        "attribute": "物理吸血",
         "value": "25",
         "unit": "percent",
         "type": "normal",
@@ -2571,13 +2571,13 @@ export default {
       "parent_id": "",
       "child_id": "铁剑,陨星",
       "attribute": [{
-        "attribute": "attack_damage",
+        "attribute": "物理攻击",
         "value": "80",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "cooldown_reduction",
+        "attribute": "冷却缩减",
         "value": "10",
         "unit": "percent",
         "type": "normal",
@@ -2603,13 +2603,13 @@ export default {
       "parent_id": "",
       "child_id": "铁剑,雷鸣刃",
       "attribute": [{
-        "attribute": "attack_damage",
+        "attribute": "物理攻击",
         "value": "60",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "cooldown_reduction",
+        "attribute": "冷却缩减",
         "value": "5",
         "unit": "percent",
         "type": "normal",
@@ -2635,19 +2635,19 @@ export default {
       "parent_id": "",
       "child_id": "吸血之镰,雷鸣刃,匕首,速击之枪",
       "attribute": [{
-        "attribute": "attack_damage",
+        "attribute": "物理攻击",
         "value": "60",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "attack_speed",
+        "attribute": "攻速加成",
         "value": "30",
         "unit": "percent",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "life_steal",
+        "attribute": "物理吸血",
         "value": "10",
         "unit": "percent",
         "type": "normal",
@@ -2673,13 +2673,13 @@ export default {
       "parent_id": "",
       "child_id": "风暴巨剑,抗魔披风",
       "attribute": [{
-        "attribute": "attack_damage",
+        "attribute": "物理攻击",
         "value": "100",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "magic_resist",
+        "attribute": "法术防御",
         "value": "50",
         "unit": "point",
         "type": "normal",
@@ -2705,13 +2705,13 @@ export default {
       "parent_id": "暗影战斧,碎星锤",
       "child_id": "铁剑",
       "attribute": [{
-        "attribute": "attack_damage",
+        "attribute": "物理攻击",
         "value": "45",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "cooldown_reduction",
+        "attribute": "冷却缩减",
         "value": "10",
         "unit": "percent",
         "type": "normal",
@@ -2737,19 +2737,19 @@ export default {
       "parent_id": "三圣之力,闪电匕首,影刃",
       "child_id": "匕首,搏击拳套",
       "attribute": [{
-        "attribute": "attack_speed",
+        "attribute": "攻速加成",
         "value": "15",
         "unit": "percent",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "critical_strike_chance",
+        "attribute": "暴击几率",
         "value": "10",
         "unit": "percent",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "movement_speed",
+        "attribute": "移速",
         "value": "5",
         "unit": "percent",
         "type": "normal",
@@ -2771,7 +2771,7 @@ export default {
       "parent_id": "狂暴双刃,闪电匕首",
       "child_id": "",
       "attribute": [{
-        "attribute": "critical_strike_chance",
+        "attribute": "暴击几率",
         "value": "8",
         "unit": "percent",
         "type": "normal",
@@ -2793,7 +2793,7 @@ export default {
       "parent_id": "穿云弓,狂暴双刃,破灭君主,速击之枪,影刃,纯净苍穹",
       "child_id": "",
       "attribute": [{
-        "attribute": "attack_speed",
+        "attribute": "攻速加成",
         "value": "10",
         "unit": "percent",
         "type": "normal",
@@ -2815,7 +2815,7 @@ export default {
       "parent_id": "风暴巨剑,日冕,陨星,碎星锤,无尽战刃,名刀·司命,血魔之怒,冰霜长矛",
       "child_id": "",
       "attribute": [{
-        "attribute": "attack_damage",
+        "attribute": "物理攻击",
         "value": "20",
         "unit": "point",
         "type": "normal",
@@ -2837,13 +2837,13 @@ export default {
       "parent_id": "宗师之力,暗影战斧",
       "child_id": "铁剑",
       "attribute": [{
-        "attribute": "attack_damage",
+        "attribute": "物理攻击",
         "value": "40",
         "unit": "point",
         "type": "normal",
         "unique": "0"
       }, {
-        "attribute": "health",
+        "attribute": "最大生命",
         "value": "300",
         "unit": "point",
         "type": "normal",
@@ -2869,7 +2869,7 @@ export default {
       "parent_id": "泣血之刃,无尽战刃,破军,冰霜长矛,反伤刺甲",
       "child_id": "铁剑",
       "attribute": [{
-        "attribute": "attack_damage",
+        "attribute": "物理攻击",
         "value": "80",
         "unit": "point",
         "type": "normal",
@@ -2891,13 +2891,13 @@ export default {
       "parent_id": "破灭君主,泣血之刃",
       "child_id": "",
       "attribute": [{
-        "attribute": "attack_damage",
+        "attribute": "物理攻击",
         "value": "10",
         "unit": "point",
         "type": "effect",
         "unique": "0"
       }, {
-        "attribute": "life_steal",
+        "attribute": "物理吸血",
         "value": "8",
         "unit": "percent",
         "type": "normal",

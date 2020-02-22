@@ -23,15 +23,19 @@
             :title="`${item.tit}(${item.category}-${item.type})`"
             :thumb="item.icon"
           >
-            <van-grid slot="desc" :column-num="6">
-              <van-grid-item
-                v-for="i in item.equipment[0].list"
-                :key="i.name"
-                :icon="i.icon"
-              >
-                <p slot="text">{{ i.name }}</p>
-              </van-grid-item>
-            </van-grid>
+            <div slot="desc">
+              <div style="color: red;">{{ item.equipCategory.join("-") }}</div>
+              <van-grid :column-num="6">
+                <van-grid-item
+                  v-for="i in item.equipment[0].list"
+                  :key="i.name"
+                  :icon="i.icon"
+                >
+                  <p slot="text">{{ i.name }}</p>
+                </van-grid-item>
+              </van-grid>
+            </div>
+
             <div slot="footer">
               <van-collapse-item
                 title="出装分析"
@@ -78,6 +82,7 @@
 
 <script>
 import heroes from "../../data/wzry-hero";
+import equips from "../../data/wzry-equip";
 export default {
   data() {
     return {
@@ -118,7 +123,17 @@ export default {
       ]
     };
   },
-
+  beforeMount() {
+    console.log("===---");
+    heroes.forEach(item => {
+      item.equipCategory = [];
+      item.add = item.equipment[0].list.reduce((t, v) => {
+        item.equipCategory.push(equips[v.name].category);
+        // const attrs = equips[v].info.attribute;
+      }, {});
+      console.log(item.equipCategory.sort((a, b) => b.localeCompare(a, "zh")));
+    });
+  },
   methods: {
     equipment(v) {
       return v.map(i => i.name).join(",");
